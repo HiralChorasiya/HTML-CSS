@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title> 
+    <style>
+            h1 {
+                text-align: center;
+                color: rgb(72, 34, 178);
+            }
+        </style>
+</head>
+    <body>
+        <marquee><h1><u> Form</u></h1><br><br></marquee>
+       
+    
+    
+    
+        <form >
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="FirstName" placeholder="Enter your First Name">  
+    
+            <label for="mname">Middle Name: </label>
+            <input type="text" id="mname" name="MiddleName" placeholder="Enter your Father's name">  
+    
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="LastName" placeholder="Enter your Surname">
+            <hr>
+                Choose Gender:<br>
+                    
+                        <input type="radio" id="Male" name="gen" value="male">
+                        <label for="Male">Male</label> 
+                        <input type="radio" id="Female" name="gen" value="Female">
+                        <label for="Female">Female</label> 
+                        <input type="radio" id="Other" name="gen" value="Other">
+                        <label for="Other">Other</label>
+            <hr>
+            <label for="email">Enter your E-mail ID:</label> 
+            <input type="email" id="email" name="email" placeholder="Please Enter your email" required> 
+            <label for="pass">Password:</label> 
+            <input type="password" id="pass" name="pass" readonly>
+            <hr>
+            <div>Date of Birth: 
+                <input type="date" id="dob" name="dob" value="DOB"><br>
+            </div>
+            <hr>
+    
+            <label for="no">Contact number: </label>
+            <input type="number" id="no" name="no" value="no" placeholder="Moblie">
+            <hr>
+    
+            <lable for="city">city</lable>
+            <input list="city" value="city">
+            <datalist id="city">
+                <option value="ahmedabad">ahmedabad</option>
+                <option value="pune">pune</option>
+                <option value="surat">surat</option>
+                <option value="mumbai">mumbai</option>
+                <option value="delhi">delhi</option>
+            </datalist>
+    
+            <div>Choose your favorite Web language:
+                
+                    <input type="checkbox" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label><br>
+                    <input type="checkbox" id="Python" name="fav_language" value="Python">
+                    <label for="Python">Python</label><br>
+                    <input type="checkbox" id="Java" name="fav_language" value="java">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" id="php" name="fav_language" value="php">
+                    <label for="php">PHP</label>
+            </div><br>
+    
+            <center>
+                <input onclick="alert('sucessfully submitted')" style="background-color:rgb(34, 168, 178); color:white; font-family: 'Times New Roman', Times, serif;" type="submit" id="submit" value="SUBMIT">
+                 
+                <input  onclick="alert('your form is reset')" style="background-color:rgb(167, 203, 4); color:black; font-family: 'Times New Roman', Times, serif;" type="reset" id="reset" value="RESET">
+            </center>
+        </form>
+    
+    
+    
+</body>
+</html>
