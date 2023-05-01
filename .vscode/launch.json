@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Kalpana/Desktop/Training/HTML-CSS/Day-3                      26-04-2023",
-      "program": "c:/Users/Kalpana/Desktop/Training/HTML-CSS/Day-3                      26-04-2023/build/Debug/outDebug",
+      "cwd": "c:/Users/Kalpana/Desktop/Training/HTML-CSS",
+      "program": "c:/Users/Kalpana/Desktop/Training/HTML-CSS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
