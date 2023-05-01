@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" required><br>
+        <label>disabled&emsp;&emsp;</label>
+        <input type="text" disabled><br>
+        <label for="msg">Message&emsp;&emsp;</label>
+        <textarea rows="4" cols="30"></textarea><br><br>
+        <label for="select">select&emsp;&emsp;</label>
+        <select>&emsp;&emsp;
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+        <label for="checkboxes">Checkboxes:&emsp;</label>
+        <input type="checkbox">male<br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox">male<br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox">male<br>
+        <label for="checkboxes">Checkboxes inline:</label>
+        <input type="checkbox">male&emsp;
+        <input type="checkbox">male&emsp;
+        <input type="checkbox">male<br>
+        <label for="radio">radio</label>
+        <input type="radio">option 1<br>
+        &emsp;&emsp;<input type="radio">option 2<br>
+        &emsp;&emsp;<input type="radio">none<br>
+        <label for="radio">radio inline</label>
+        <input type="radio">option 1&emsp;
+        <input type="radio">option 2&emsp;
+        <input type="radio">none<br>
+        <center>
+        <input onclick="alert('sucessfully submitted')" style="background-color:green; color:white; font-family: 'Times New Roman', Times, serif;" type="submit" id="submit" value="Submit">
+                 
+                <input  onclick="alert('your form is reset')" style="background-color:rgb(172, 177, 153); color:black; font-family: 'Times New Roman', Times, serif;" type="reset" id="reset" value="Cancel">
+            </center></form>
+</body>
+</html>
